@@ -2,7 +2,7 @@
 
 from bs4 import BeautifulSoup
 import urllib
-handle=urllib.urlopen("")
+handle=urllib.urlopen("www.example.com")
 web_data=handle.read()
 soup=BeautifulSoup(web_data)
 links=soup("a")
